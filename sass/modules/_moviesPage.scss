@@ -1,0 +1,56 @@
+// global list styles for layout
+
+
+
+// end list styles
+
+.movieReview
+{
+    width:100%;
+    height:500px;
+    position:absolute;
+    z-index:20;
+}
+
+.video-poster-wrapper {display:inline-block; text-align: center; position:absolute; margin-top: -100px; z-index:-20 } 
+
+.movie_poster
+{
+    width:220px;
+    height:119px;
+    margin-top:20px;
+    margin-left:-20px;
+    
+    display:block;
+    
+    
+    
+
+}
+.back-home {
+    color: white;
+    margin-bottom: 16px;
+    display: block;
+    padding-left: 8px;
+}
+
+video { width: 100% }
+
+.instructions { padding-top: 350px; text-align: center; color:#662d91 ;    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:40px;}
+
+.up-arrow { text-align: center }
+
+.up-arrow span {
+    font-size: 2em;
+    padding: 8px 15px 8px;
+    border-radius: 50%;
+    font-weight: bolder;
+    background-color: rgba(255,255,255,0.2);
+    cursor: pointer;
+    display: none;
+}
+
+.show-scroller {display: inline-block !important; }
+
+
