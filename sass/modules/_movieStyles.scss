@@ -1,9 +1,13 @@
 .hidden-movies {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   transition: all 0.7s;
   max-height: 0;
+  background-color:#b9529f;
+  margin-top:-150px;
+  -moz-border-radius-bottomleft: 100px;
+  -webkit-border-bottom-left-radius: 100px;
  }
 
  .show-movie { max-height: 800px; }
@@ -12,17 +16,23 @@
   font-size: 2.5em;
   text-align: center;
   margin-top: 100px;
+  color:#fff;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
  }
 
 .movie-details {
   padding-left: 12px;
   padding-top: 12px;
   margin-bottom: 40px;
+  color:#fff;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .movie-details h3 {
   margin-top: 8px;
   margin-bottom: 12px;
+  color:#fff;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .movie-details p { text-align: center; }

@@ -24,6 +24,32 @@
             <button id="button"></button>
             <div id="burgerCon">
               <ul id="burgerMenu">
+                <ul class="endingPoints">
+                  <!-- avatar / user icon-->
+                  <!-- if the user has an avatar, show it -->
+                  <span id="userHead"> {{user.uname}}</span>
+                  <li v-if="user.avatar">
+                    <img v-bind:src="'images/' + user.avatar" alt="user avatar" class="u-avatar">
+                  </li>
+        
+                  <!-- else show this -->
+                  <li v-else>
+                    <i class="fas fa-user"></i>
+                  </li>
+                  <!-- end avatar -->
+        
+                  <!-- settings icon / functionality -->
+                  <!-- if our user object has admin rights, then show this -->
+                  <li v-if="user.iadmin"> <!-- *******************screwed this up in database FIX PLZ to isadmin********************* -->
+                    <i @click="setUserPrefs" class="fas fa-cog" role="button"></i>
+                  </li>
+                  <!-- end user settings -->
+        
+                  <!-- log in / log out -->
+                  <li>
+                    <i v-on:click="logInOut" class="fas fa-power-off u-login" :class="{ 'logged-in' : user.isLoggedIn }" role="button"></i> <!-- logged-in comes from css-->
+                  </li>
+                </ul>
 
                 <li><a href="index.html">Home</a></li>
                 <li><a href="moviesPage.html">Movies</a></li>
@@ -68,8 +94,9 @@
     </main>
 
   <!-- Script Section -->
- <!----<script src="https://cdn.jsdelivr.net/npm/vue@2.5.15/dist/vue.js"></script>--->
+ <script src="https://cdn.jsdelivr.net/npm/vue@2.5.15/dist/vue.js"></script>
  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+ <script src="js/vue.js"></script>
  <script src="js/main.js"></script>
 </body>
 
