@@ -1,5 +1,4 @@
-.DS_Store
+.vscode
+*.zip
+_DS_Store
 node_modules
-.sass-cache
-.ai
-.psd
