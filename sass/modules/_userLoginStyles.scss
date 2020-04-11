@@ -1,0 +1,62 @@
+.FormContainer
+{
+    background: #000000 url("../bgImage/bgImage.png")  no-repeat;
+    background-blend-mode: screen;
+    
+    width:100%;
+    height:700px;
+    margin-top:-20px;
+    overflow: hidden;
+    position:relative;
+}
+
+
+.roku-jumbotron {
+    color: #fff;
+    position:relative;
+    
+    margin: 170px 50px 0 !important;
+    width:250px;
+    height:300px;
+    background-color:#662d91;
+    border-radius:40px;
+    text-align:center;
+}
+.loginHead
+{
+    margin-top:5px;
+    font-size:30px;
+    font-family:helvetica,arial,sans-serif;
+   
+}
+
+
+
+.input
+{
+    width:140px;
+    
+}
+
+
+.form-control
+{
+    width:200px;
+    height:60px;
+   background-color:#662d91;
+   border:none;
+
+}
+
+
+.btn{
+
+    width:150px;
+    height:50px;
+    border:3px;
+    background-color:#fff;
+    color:#000;
+    margin:0 40px 0;
+    font-family:helvetica,arial,sans-serif;
+}
+
