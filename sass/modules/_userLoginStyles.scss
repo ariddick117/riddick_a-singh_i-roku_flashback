@@ -1,7 +1,8 @@
 .FormContainer
 {
-    background: #000000 url("../bgImage/bgImage.png")  no-repeat;
-    background-blend-mode: screen;
+    background:  url("../bgImage/bgImage.png")  no-repeat ;
+
+    
     
     width:100%;
     height:700px;
@@ -15,7 +16,7 @@
     color: #fff;
     position:relative;
     
-    margin: 170px 50px 0 !important;
+    margin: 200px 60px 0 !important;
     width:250px;
     height:300px;
     background-color:#662d91;
@@ -37,6 +38,18 @@
     width:140px;
     
 }
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: pink;
+  }
+ input::-moz-placeholder { /* Firefox 19+ */
+    color: pink;
+  }
+  input:-ms-input-placeholder { /* IE 10+ */
+    color: pink;
+  }
+  input:-moz-placeholder { /* Firefox 18- */
+    color: pink;
+  }
 
 
 .form-control
