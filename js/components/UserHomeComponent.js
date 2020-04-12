@@ -34,9 +34,9 @@ export default  {
         return {
             activeComponent: VideoComponent,
             mediaTypes: [
-                { iconClass: "fas fa-film", description: "Movies", component: VideoComponent},
-                { iconClass: "fas fa-tv", description: "Television", component: TelevisionComponent},
-                { iconClass: "fas fa-headphones", description: "Music", component: AudioComponent},
+                { iconClass: "fas fa-film fa-2x", description: "Movies", component: VideoComponent},
+                { iconClass: "fas fa-tv fa-2x", description: "Television", component: TelevisionComponent},
+                { iconClass: "fas fa-headphones fa-2x", description: "Music", component: AudioComponent},
 
 
             ]
