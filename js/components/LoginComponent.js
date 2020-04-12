@@ -2,10 +2,10 @@ export default {
     template: `
         <div class="FormContainer">
             <div class="jumbotron roku-jumbotron">
-                <h1 class="display-6">Hello Again!</h1>
+                <h1 class="display-6 LoginHead">Hello Again!</h1>
                 
                 <form>
-                    <div class="form-row align-items-center">
+                    <div class="form-column align-items-center">
                         <div class="col-md-3 my-1">
                             <label class="sr-only" for="inlineFormInputName"><h1>Name</h1></label>
                             <input v-model="input.username" type="text" class="form-control" id="inlineFormInputName" placeholder="Username" required>

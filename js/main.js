@@ -11,6 +11,9 @@ import UserHomeComponent from './components/UserHomeComponent.js';
       { path: '/login', name: "login", component: LoginComponent },
       { path: '/users', name: 'users', component: AllUsersComponent },
       { path: '/userhome', name: 'home', component: UserHomeComponent, props: true }
+      
+      
+
     ]
   });
 
