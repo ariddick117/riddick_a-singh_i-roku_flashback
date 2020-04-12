@@ -120,35 +120,37 @@ audio {
 
 @media (min-width: 1281px) {
 
-    .fs-video { width: 70%; height: 450px; -moz-border-radius-bottomleft: 100px;-webkit-border-bottom-left-radius: 100px ;
+    .fs-video { width: 70%; height: 1000px; -moz-border-radius-bottomleft: 100px;-webkit-border-bottom-left-radius: 100px ;
         border-bottom-left-radius: 100px; margin-top:1000px; background: darken($dark-bg, 15%);
         object-fit:cover; float:left;
-        margin-left:-1000px;
+        margin-top:400px;
+        margin-left:-1950px;
         
     
          }
     
-    
+         .media-container { background: darken($dark-bg, 15%)}    
     .media-container:first-of-type { padding-bottom: 1em; }
     .media-container:last-of-type { padding-left: 0; padding-right: 0; }
     
     // top left media details
     .media-title { 
-        font-size: 30px; 
+        font-size: 100px; 
         padding-top: 1em;
         font-weight: bolder; 
         color:#fff;
         position:fixed;
         z-index:10;
-        margin-top:100px;
+        margin-left:20px;
+        margin-top:1000px;
         font-family:helvetica,arial,sans-serif;
     
     }
     
-    .media-details { font-size: 1.2em; padding: 0.5em 0; position:fixed; z-index:10;color:#fff; margin-top:190px; }
+    .media-details { font-size: 40px; padding: 30px 30px; position:fixed; z-index:10;color:#fff; margin-top:1180px; margin-left:-1600px; }
     
-    .media-year, .media-time { font-size: 1em; position:fixed; z-index:10; color:#fff; margin-top:350px;}
-    .media-year { display: block; float: right; margin-left:100px;}
+    .media-year, .media-time { font-size: 2em; position:fixed; z-index:10; color:#fff; margin-top:1300px;}
+    .media-year { display: block; float: right; margin-left:300px;}
     
     .side-nav { background: darken($dark-bg, 9%) }
     
@@ -161,7 +163,7 @@ audio {
             padding: 1rem;
             cursor: pointer;
             display: inline-block;
-            width: 33%;
+            width: 80%;
             text-align: center;
     
             span:first-of-type {  
@@ -214,15 +216,15 @@ audio {
     .thumb-wrapper
     {
         position:relative;
-        margin-top:460px;
+        margin-top:20px;
         z-index:2;
-        margin-left: 45px;
-        width:500px;
+        margin-left: 1700px;
+        width:1000px;
     }
     
     .media-thumb {
-        width:100px;
-        height: 150px;
+        width:300px;
+        height: 250px;
         margin: 0.7em;
     }
     
@@ -243,7 +245,7 @@ audio {
         opacity: 0.8;
     }
 
-
+   
 
 
 }
